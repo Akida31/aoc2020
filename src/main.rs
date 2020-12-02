@@ -1,7 +1,8 @@
-mod rf;
 mod day1;
-
+mod day2;
+mod rf;
 
 fn main() {
-    day1::run();
+    day1::solve();
+    day2::solve();
 }
