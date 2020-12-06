@@ -98,10 +98,10 @@ fn iyr(input: &str) -> bool {
 fn hgt(input: &str) -> bool {
     if input.ends_with("cm") {
         let h = input.to_string()[..input.len() - 2].parse().unwrap_or(0);
-        150 <= h && h <= 193
+        (150..=193).contains(&h)
     } else if input.ends_with("in") {
         let h = input.to_string()[..input.len() - 2].parse().unwrap_or(0);
-        59 <= h && h <= 76
+        (59..=76).contains(&h)
     } else {
         false
     }
