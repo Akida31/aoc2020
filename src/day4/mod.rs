@@ -27,6 +27,7 @@ fn solve1(input: Vec<String>) -> usize {
 }
 
 fn solve2(input: Vec<String>) -> usize {
+    #[allow(clippy::type_complexity)]
     let validators: [(&str, Box<dyn Fn(&str) -> bool>); 7] = [
         ("byr", Box::new(byr)),
         ("iyr", Box::new(iyr)),
