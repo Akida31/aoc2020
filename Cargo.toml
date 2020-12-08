@@ -8,3 +8,28 @@ edition = "2018"
 
 [dependencies]
 regex = "1.0"
+
+[[bin]]
+name = "day1"
+path = "src/day1/mod.rs"
+[[bin]]
+name = "day2"
+path = "src/day2/mod.rs"
+[[bin]]
+name = "day3"
+path = "src/day3/mod.rs"
+[[bin]]
+name = "day4"
+path = "src/day4/mod.rs"
+[[bin]]
+name = "day5"
+path = "src/day5/mod.rs"
+[[bin]]
+name = "day6"
+path = "src/day6/mod.rs"
+[[bin]]
+name = "day7"
+path = "src/day7/mod.rs"
+[[bin]]
+name = "day8"
+path = "src/day8/mod.rs"

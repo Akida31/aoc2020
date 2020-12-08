@@ -1,6 +1,6 @@
 use std::collections::HashSet;
 
-pub fn solve() {
+fn main() {
     let input = include_str!("input.txt").split("\n\n");
     let inputs = input
         .clone()

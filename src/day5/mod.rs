@@ -1,6 +1,6 @@
 use std::str::Lines;
 
-pub fn solve() {
+fn main() {
     let input = include_str!("input.txt").lines();
     println!("Day 5, Solution 1: {}", solve1(input.clone()));
     println!("Day 5, Solution 2: {}", solve2(input));

@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-pub fn solve() {
+fn main() {
     let input = include_str!("input.txt");
     let inputs = input
         .split("\n\n")

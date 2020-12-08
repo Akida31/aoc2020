@@ -1,4 +1,4 @@
-pub fn solve() {
+fn main() {
     let input = include_str!("input.txt");
     println!("Day 2, Solution 1: {}", solve1(input));
     println!("Day 2, Solution 2: {}", solve2(input));

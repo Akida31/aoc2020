@@ -1,5 +1,8 @@
-pub fn solve() {
-    let input = crate::rf::read_to("src/day1/input.txt");
+fn main() {
+    let input: Vec<_> = include_str!("input.txt")
+        .lines()
+        .map(|x| x.parse().unwrap())
+        .collect();
     println!("Day 1, Solution 1: {}", solve1(input.clone()));
     println!("Day 1, Solution 2: {}", solve2(input));
 }

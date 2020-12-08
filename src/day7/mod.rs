@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-pub fn solve() {
+fn main() {
     let input = include_str!("input.txt");
     let inputs = regex::Regex::new(r"([a-zA-Z ]+) bags contain ([a-zA-Z, 0-9]+).")
         .unwrap()
